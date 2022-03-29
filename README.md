@@ -1,27 +1,23 @@
-<h1>Detecting-Impasse-LAK2022</h1>
+<h2>Using Multimodal Machine Learning for Detecting Impasse During Collaborative Dialogue </h2>
 
-<h2>Description</h2>
-<p>This is the repository for the following paper at the LAK conference 2022:</p> 
-<p><em>Detecting Impasse During Collaborative Problem Solving with Multimodal Learning Analytics</em></p>
+<p>This is the repository for our research paper accepted at the International Conference on Learning Analytics & Knowledge (LAK'22)</h1>
+ 
+<p><b>Paper Link: </b><a href="http://learndialogue.org/pdf/LearnDialogue-Ma-LAK-2022.pdf">Detecting Impasse During Collaborative Problem Solving with Multimodal Learning Analytics</a></p>
+
+
 
 <h3>Introduction</h3>
-<p>Collaborative problem solving has numerous benefits for learners, such as improving higher-level reasoning and developing critical
-thinking. While learners engage in collaborative activities, they often experience <em>impasse</em>, a potentially brief encounter with differing
-opinions or insufficient ideas to progress. Impasses provide valuable opportunities for learners to critically discuss the problem and reevaluate
-their existing knowledge. Yet, despite the increasing research efforts on developing multimodal modeling techniques to analyze
-collaborative problem solving, there is limited research on detecting impasse in collaboration. This paper investigates multimodal
-detection of impasse by analyzing 46 middle school learners’ collaborative dialogue—including speech and facial behaviors—during a
-coding task. We found that the semantics and speaker information in the linguistic modality, the pitch variation in the audio modality,
-and the facial muscle movements in the video modality are the most significant unimodal indicators of impasse. We also trained
+
+<a href="https://github.com/mckolu/Detecting-Impasse-LAK2022/blob/main/ML%20Architecture.jpg"><img align="right" width="430" height="auto" src="https://github.com/mckolu/Detecting-Impasse-LAK2022/blob/main/ML%20Architecture.jpg"></a>
+
+<p>Collaborative problem solving has numerous benefits for learners, learners often experience <em>impasse</em>, a potentially brief encounter with differing opinions or insufficient ideas to progress. Impasses provide valuable opportunities for learners to critically discuss the problem and reevaluate
+their existing knowledge. This paper investigates multimodal detection of impasse by analyzing 46 middle school learners’ collaborative dialogue—including speech and facial behaviors—during a coding task. We found that the semantics and speaker information in the linguistic modality, the pitch variation in the audio modality, and the facial muscle movements in the video modality are the most significant unimodal indicators of impasse. We also trained
 several multimodal models and found that combining indicators from these three modalities provided the best impasse detection
-performance. To the best of our knowledge, this work is the first to explore multimodal modeling of impasse during the collaborative
-problem solving process. This line of research contributes to the development of real-time adaptive support for collaboration.</p>
+performance. This line of research contributes to the development of real-time adaptive support for collaboration.</p>
 
 <h3>Authors</h3>
 Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer
 
-<h3>Citation</h3>
-<pre></pre>
 
 <h2>Code Structure</h2>
 
