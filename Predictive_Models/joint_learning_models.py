@@ -1,5 +1,3 @@
-# Python codes for multimodal classification models, this file will be updated later
-
 from nltk.tokenize import sent_tokenize
 import os
 os.environ['TF_XLA_FLAGS'] = '--tf_xla_enable_xla_devices'
@@ -59,7 +57,7 @@ print("Done!")
 
 
 print("\n**************************************************************************************************")
-print("create bert layer...")
+print("create BERT layer...")
 import tensorflow as tf
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
@@ -421,6 +419,10 @@ elif use_acoustic_visual_model:
     y_pred = model.predict([audio_vali, video_vali], verbose=0)
 else:
     print("ERROR! Please select a model type to predict!")
+    
+    
+
+print("\n**************************************************************************************************")
 
 y_pred_list = []
 for pred_index in range(len(y_pred)):
