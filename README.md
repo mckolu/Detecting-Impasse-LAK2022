@@ -16,7 +16,7 @@ several multimodal models and found that combining indicators from these three m
 performance. This line of research contributes to the development of real-time adaptive support for collaboration.</p>
 
 <h3>Authors</h3>
-Yingbo Ma, Mehmet Celepkolu, Kristy Elizabeth Boyer
+Yingbo Ma, Mehmet Celepkolu, Kristy Boyer
 
 
 <h2>Code Structure</h2>
